@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div class="app-wrap">
+    <main>
+      <div class="window">
+        <header class="search-container">
+            <input id="myInput" type="text" autocomplete="off" class="search-box" placeholder="Search for a city..."><i class="bi bi-search"></i></input>
+            <div class="suggestions">
+              <ul></ul>
+            </div>
+        </header>
+      
+        <section class="location">
+          <div class="city">Weather in Nairobi</div>
+        </section>
+        <div class="current">
+          <div class="temp">__<span>°c</span></div>
+          <div class="weather">___</div>
+          <div class="humidity">Humidity: _%</div>
+          <div class="wind">Wind speed: _Km/h</div>
+        </div>
+      </div>
+      
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
